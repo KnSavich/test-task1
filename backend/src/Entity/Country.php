@@ -67,25 +67,4 @@ class Country
     {
         return $this->taxPercentage;
     }
-
-    public function setName(string $name): self
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    public function setCountryCode(string $countryCode): self
-    {
-        $this->countryCode = $countryCode;
-
-        return $this;
-    }
-
-    public function setTaxPercentage(int $taxPercentage): self
-    {
-        $this->taxPercentage = $taxPercentage;
-
-        return $this;
-    }
 }
